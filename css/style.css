@@ -9,6 +9,10 @@ img{
     position: relative;
 }
 
+.d-none{
+    display: none;
+}
+
 .skin-up{
     border-radius: 50%;
     font-size: 2rem;
@@ -30,7 +34,12 @@ img{
     left: 50%;
 }
 
-.skin-up,.skin-down:hover{
+.skin-down:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.skin-up:hover {
     cursor: pointer;
     background-color: greenyellow;
 }

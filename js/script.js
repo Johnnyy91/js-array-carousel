@@ -1,9 +1,12 @@
 console.log('JS OK!');
 
 const images = [ '01', '02', '03', '04', '05'];
-let arrow = 0;
 
  const container = document.getElementById('container');
+
+ for( i = 0 ; i < images.length ; i++ ){
+    const image = images [i]
+ }
 
 
 
