@@ -1,0 +1,13 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
