@@ -9,6 +9,10 @@ img{
     position: relative;
 }
 
+.d-block{
+    display: block;
+}
+
 .d-none{
     display: none;
 }
@@ -32,6 +36,7 @@ img{
     background-color: rgba(128, 128, 128, 0.63);
     position: absolute;
     left: 50%;
+    bottom: 28%;
 }
 
 .skin-down:hover{
