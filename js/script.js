@@ -4,9 +4,15 @@ const images = [ '01', '02', '03', '04', '05'];
 
  const container = document.getElementById('container');
 
+ let img = '';
+
  for( i = 0 ; i < images.length ; i++ ){
-    const image = images [i]
+     img = img + `<img src="img/${images[i]}.jpg" alt="img">`;
+     
  }
+ 
+ container.innerHTML = img;
+ console.log(img);
 
 
 
